@@ -15,7 +15,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+<<<<<<< feature/dev
 })->name('welcome');
 Route::get('/index', function () {
     return view('index');
 })->name('index');
+=======
+});
+Route::get('/home', function () {
+    return view('home');
+})->name('home');
+>>>>>>> local
